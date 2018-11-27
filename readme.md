@@ -4,7 +4,7 @@ This repository contains the Laravel 5.7 Vuejs version API with Bootstrap View I
 ##Cloning
 To clone the TMS project to your local machine, run the following command
 
-`git clone --recursive -b dev-master git@github.com:imManish/laravel-vue-sample.git /your_desired_location`
+`git clone --recursive -b master git@github.com:imManish/laravel-vue-sample.git /your_desired_location`
 
 This will also clone the submodules attached to this project. The submodules will clone from the *dev-master* branch,
 in a **detached** state.
