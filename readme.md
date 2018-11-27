@@ -92,6 +92,13 @@ For build the frontend app simply run
 ##Deployed Url 
 `http://localhost:8000` Or `http://app.dev.com:port`
 
+##Redis Configuration
+
+`$ redis-server` To Start Redis server
+
+`$ redis-cli` check `$ keys *` 
+
+
 ##Jenkins
 For Continuous Integration, a Jenkins server is available at http://jenkins.sampleserver.com/. Currently, the server only
 performs some standards checking using tools like **phpcs**, **phpmd** and **phpcpd**.
