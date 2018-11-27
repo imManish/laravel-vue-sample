@@ -1,0 +1,41 @@
+/*     	Setting Tab     */
+.settings-wrapper{
+	.settings-content{
+		.category-title{
+			&:first-child{
+				margin-top: 0px !important;
+			}
+			font-size: 19px;
+			font-weight: $font-weight-normal;
+			padding-bottom: 10px;
+			margin-top: 25px;
+			display: block;
+			border-bottom: 1px solid #f1f1f1;
+			margin-bottom: 15px;
+		}
+		.settings-list{
+			padding-left: 0px;
+			list-style: none;
+			li{
+				display: table;
+				width: 100%;
+				margin-bottom: 15px;
+				.item-label{
+					display: table-cell;
+					vertical-align: middle;
+					font-size: 12px;
+				}
+				.item-control{
+					display: table-cell;
+					float: right;
+					margin-right: 5px;
+					.toggle-group {
+						.toggle-on, .toggle-off{
+							font-size: 11px !important;
+						}
+					}
+				}
+			}
+		}
+	}
+}

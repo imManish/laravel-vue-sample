@@ -1,0 +1,108 @@
+/*     Invoices	    */
+.card-invoice{
+	.invoice-header{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 15px;
+		.invoice-title{
+			font-size: 27px;
+			font-weight: $font-weight-mediumbold;
+			color: #3a3a3a;
+		}
+		.invoice-logo{
+			width: 150px;
+			display: flex;
+			align-items: center;
+			img{
+				width: 100%;
+			}
+		}
+	}
+	.sub{
+		font-size: 14px;
+		margin-bottom: 8px;
+		font-weight: $font-weight-bold;
+	}
+	.info-invoice{
+		padding-top: 15px;
+		padding-bottom: 15px;
+		p{
+			font-size: 12px;
+		}
+	}
+	.invoice-desc{
+		text-align: right;
+		font-size: 12px;
+	}
+	.invoice-detail{
+		width: 100%;
+		display: block;
+		.invoice-top{
+			.title{
+				font-size: 20px;
+			}
+		}
+	}
+	.transfer-to{
+		.sub{
+			font-size: 14px;
+			margin-bottom: 8px;
+			font-weight: $font-weight-bold;
+		}
+		.account-transfer{
+			> div {
+				display: flex;
+				justify-content: space-between;
+				span:first-child{
+					font-weight: $font-weight-bold;
+					color: #333;
+					font-size: 12px;
+				}
+				span:last-child{
+					font-size: 12px;
+				}
+			}
+		}
+	}
+	.transfer-total{
+		text-align: right;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		.sub{
+			font-size: 14px;
+			margin-bottom: 8px;
+			font-weight: $font-weight-bold;
+		}
+		.price{
+			font-size: 28px;
+			color: $primary-color;
+			padding: 7px 0;
+			font-weight: $font-weight-bold;
+		}
+		span{
+			font-weight: $font-weight-bold;
+			font-size: 12px;
+		}
+	}
+	.card-body{
+		padding: 0;
+		border: 0px !important;
+		width: 75%;
+		margin: auto;
+	}
+	.card-header {
+		padding: 50px 0px;
+		border: 0px !important;
+		width: 75%;
+		margin: auto;
+	}
+	.card-footer {
+		padding: 50px 0px;
+		border: 0px !important;
+		width: 75%;
+		margin: auto;
+	}
+}

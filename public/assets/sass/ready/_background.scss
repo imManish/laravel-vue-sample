@@ -1,0 +1,47 @@
+/* 	 Background Body */
+body {
+	background: #fafafa;
+	&[data-background-color="bg1"] {
+		background: #fafafa;
+	}
+	&[data-background-color="bg2"] {
+		background: $white-color;
+	}
+	&[data-background-color="bg3"] {
+		background: #f1f1f1;
+	}
+}
+
+/*   Background   */
+
+.bg-default {
+	background-color: $default-color !important;
+}
+
+.bg-primary {
+	background-color: $primary-color !important;
+}
+
+.bg-secondary {
+	background-color: $secondary-color !important;
+}
+
+.bg-info {
+	background-color: $info-color !important;
+}
+
+.bg-success {
+	background-color: $success-color !important;
+}
+
+.bg-warning {
+	background-color: $warning-color !important;
+}
+
+.bg-danger {
+	background-color: $danger-color !important;
+}
+
+.bg-dark{
+	background: $black-color !important;
+}
